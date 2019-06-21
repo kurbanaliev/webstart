@@ -306,6 +306,46 @@ img {
   min-height: 70px;
 }
 
+.offer__suptext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.offer__call_you {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.offer__suptel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 10px;
+}
+
+.offer__call_us {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.offer__phone {
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none;
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-weight: 700;
+  color: #333333;
+}
+
 @media (max-width: 1200px) {
   .offer {
     background-size: cover;
@@ -316,6 +356,13 @@ img {
   }
   .offer__button {
     font-size: 13px;
+  }
+  .offer__suptext {
+    display: block;
+  }
+  .offer__call_you {
+    display: block;
+    margin-bottom: 10px;
   }
 }
 

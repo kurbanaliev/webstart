@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -45,7 +46,7 @@
             </span>
             <ul class="hero-list">
               <li class="hero-list__item">
-                <div class="hero-list__image">
+                <div class="hero-list__image wow bounceInLeft" data-wow-delay="0.1s">
                   <img src="img/hero/clock.png" alt="clock">
                 </div>
                 <span class="hero-list__text">
@@ -53,7 +54,7 @@
                   </span>
               </li>
               <li class="hero-list__item">
-                  <div class="hero-list__image">
+                  <div class="hero-list__image wow bounceInLeft" data-wow-delay="0.2s">
                     <img src="img/hero/calculator.png" alt="calculator">
                   </div>
                   <span class="hero-list__text">
@@ -62,7 +63,7 @@
                   </span>
               </li>
               <li class="hero-list__item">
-                <div class="hero-list__image">
+                <div class="hero-list__image wow bounceInLeft" data-wow-delay="0.3s">
                   <img src="img/hero/paint-board.png" alt="paint-board">
                 </div>
                 <span class="hero-list__text">
@@ -72,7 +73,7 @@
               </li>
             </ul>
           </div>
-          <div class="hero-image">
+          <div class="hero-image wow rotateIn">
             <img src="img/hero/hero-image.jpg" alt="План квартиры">
           </div>
         </div>
@@ -81,7 +82,7 @@
 
     <section class="offer section">
       <div class="container">
-        <div class="offer-block">
+        <div class="offer-block wow zoomInDown">
           <h2 class="section-title offer__title">
             Мы бесплатно разработаем 
             дизайн-проект Вашего жилья 
@@ -117,7 +118,7 @@
         <h2 class="section-title portfolio__title">
           Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и домах     
         </h2>
-        <div class="slider">
+        <div class="slider wow bounceInLeft" data-wow-delay="0.2s">
           <div class="slide__item"><img class="slider__image" src="img/portfolio/slider-1.jpg" alt=""></div>
           <div class="slide__item"><img class="slider__image" src="img/portfolio/slider-2.jpg" alt=""></div>
           <div class="slide__item"><img class="slider__image" src="img/portfolio/slider-3.jpg" alt=""></div>
@@ -141,7 +142,7 @@
         <h2 class="section-title price__title">У нас очень гибкая система скидок на комплексные работы!</h2>
         <span class="section-subtitle price__subtitle">Прайс на наши услуги</span>
         <div class="cards">
-          <div class="card price__card">
+          <div class="card  price__card wow fadeInUp" data-wow-delay="0.1s">
             <div class="card__image">
               <img class="card__image_db" src="img/price/bathroom.jpg" alt="bathroom">
             </div>
@@ -150,7 +151,7 @@
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.2s">
             <div class="card__image">
               <img class="card__image_db" src="img/price/livingroom.jpg" alt="livingroom">
             </div>
@@ -159,7 +160,7 @@
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.3s">
             <div class="card__image">
               <img class="card__image_db" src="img/price/office.jpg" alt="office">
             </div>
@@ -168,7 +169,7 @@
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.4s">
             <div class="card__image">
               <img class="card__image_db" src="img/price/repair.jpg" alt="repair">
             </div>
@@ -177,7 +178,7 @@
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.5s">
             <div class="card__image">
               <img class="card__image_db" src="img/price/kitchen.jpg" alt="kitchen">
             </div>
@@ -186,7 +187,7 @@
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.6s">
             <div class="card__image">
               <img class="card__image_db" src="img/price/dizhain_mansardi_24.jpg" alt="mansard">
             </div>
@@ -194,6 +195,46 @@
               <h4 class="card__title">Ремонт дач и коттеджей</h4>
               <a href="#" class="card__link">Узнать цены</a>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section brif">
+      <div class="container">
+        <div class="brif-block">
+          <div class="interview brif__interview">
+            <h3 class="interview__title">Мы можем озвучить Вам примерную стоимость работы и материалов по телефону</h3>
+            <span class="interview__subtitle">Для этого нужно ответить на 4 вопроса:</span>
+            <ul class="interview-list">
+              <li class="interview-list__item">
+                <span class="interview-list__counter">1</span>
+                <span class="interview-list__text">Какова площадь помещения?</span>
+              </li>
+              <li class="interview-list__item">
+                <span class="interview-list__counter">2</span>
+                <span class="interview-list__text">У Вас новостройка или вторичное жилье?</span>
+              </li>
+              <li class="interview-list__item">
+                <span class="interview-list__counter">3</span>
+                <span class="interview-list__text">Где находится помещение, в котором будет 
+                    производиться ремонт?</span>
+              </li>
+              <li class="interview-list__item">
+                <span class="interview-list__counter">4</span
+                  span class="interview-list__text">Назначение помещения?</span>
+                </li>
+            </ul>  
+          </div>
+          <div class="form brif__form">
+            <h3 class="form__title">Оставьте заявку на бесплатный расчет ремонта по телефону</h3>
+            <span class="form__subtitle">Для этого заполните форму ниже</span>
+            <form action="#">
+              <input type="text" class="input brif__input" placeholder="Ваше имя">
+              <input type="tel" class="input brif__input" placeholder="Ваш телефон">
+              <button class="button brif__button">Расчитать стоимость</button>
+              <span class="form__description">Мы перезвоним Вам в течение 60 секунд</span>
+            </form>
           </div>
         </div>
       </div>
@@ -211,7 +252,11 @@
   crossorigin="anonymous"></script>
   <script src="js/modal.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/wow.min.js"></script>
   <script>
+    // инициализация WOW.js
+    new WOW().init();
+    // Скринт для слайдера
     $(document).ready(function() {
       $('.slider').slick({
         slidesToShow: 3,
